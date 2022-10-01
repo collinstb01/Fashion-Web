@@ -72,7 +72,7 @@ const Bottom = styled.div`
   }
 `;
 function footer() {
-  const { scroll } = useLocomotiveScroll();
+  // const { scroll } = useLocomotiveScroll();
 
   // const handleScroll = (id) => {
   //   let elem = document.querySelecot(id);
