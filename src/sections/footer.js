@@ -72,19 +72,17 @@ const Bottom = styled.div`
   }
 `;
 function footer() {
-  // const {scroll} = useLocomotiveScroll();
+  const { scroll } = useLocomotiveScroll();
 
   // const handleScroll = (id) => {
-  //     let elem = document.querySelecot(id);
+  //   let elem = document.querySelecot(id);
 
-  //   scroll.scrollTo(elem,
-  //       {
-  //         offset: '-100',
-  //         duration: '2000',
-  //         easing: [0.25,0.0,0.35,1.0],
-  //       }
-  //     )
-  // }
+  //   scroll.scrollTo(elem, {
+  //     offset: "-100",
+  //     duration: "2000",
+  //     easing: [0.25, 0.0, 0.35, 1.0],
+  //   });
+  // };
 
   return (
     <Section>
@@ -103,10 +101,10 @@ function footer() {
         }}
       >
         <ul>
-          <li onClick={() => handleScroll("#home")}>Home</li>
-          <li onClick={() => handleScroll("#about")}>about</li>
-          <li onClick={() => handleScroll("#shop")}>shop</li>
-          <li onClick={() => handleScroll("#new")}>new arrival</li>
+          <li onClick={() => "#home"}>Home</li>
+          <li onClick={() => "#about"}>about</li>
+          <li onClick={() => "#shop"}>shop</li>
+          <li onClick={() => "#new"}>new arrival</li>
           <li>
             <a href="http://google.com" target="_blank" rel="noneferrer">
               Look Book
