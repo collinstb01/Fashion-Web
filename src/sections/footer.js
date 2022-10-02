@@ -72,17 +72,17 @@ const Bottom = styled.div`
   }
 `;
 function footer() {
-  // const { scroll } = useLocomotiveScroll();
+  const { scroll } = useLocomotiveScroll();
 
-  // const handleScroll = (id) => {
-  //   let elem = document.querySelecot(id);
+  const handleScroll = (id) => {
+    let elem = document.querySelecot(id);
 
-  //   scroll.scrollTo(elem, {
-  //     offset: "-100",
-  //     duration: "2000",
-  //     easing: [0.25, 0.0, 0.35, 1.0],
-  //   });
-  // };
+    scroll.scrollTo(elem, {
+      offset: "-100",
+      duration: "2000",
+      easing: [0.25, 0.0, 0.35, 1.0],
+    });
+  };
 
   return (
     <Section>
